@@ -1,0 +1,14 @@
+[package]
+name = "snapped"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+ascii_tree = "0.1.1"
+clap = { version = "4.5.16", features = ["derive"] }
+colored = "2.1.0"
+ctrlc = "3.4.5"
+env_logger = "0.11.5"
+gdb-machine = { path = "gdb-machine" }
+log = "0.4.22"
